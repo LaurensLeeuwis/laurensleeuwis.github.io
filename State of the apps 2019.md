@@ -19,6 +19,7 @@ This is a list of the applications I've installed on my Mac. Very useful as refe
 - [Brew](https://brew.sh/) to easily install some tools
 	- `zsh` including `zsh-autosuggestions` and `zsh-syntax-highlighting`. Don't know if I'm actually using the last two, since I installed the whole Meslo/Powerlevel9k/OhMyZsh afterwards (see above).
 	- `git` for obvious reasons. The latest version, so not the old version which is installed by default on MacOS
+	- `git-lfs` because we have some repositories at work which make use of the large file storage capabilities.
 	- `bat` which is like `cat`, but with syntax highlighting.
 	- `node` nodeJS (which includes `npm` as well).
 	- `jenv` to easily switch JDK's ([jenv](https://www.jenv.be/))
