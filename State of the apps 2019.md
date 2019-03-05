@@ -21,13 +21,14 @@ This is a list of the applications I've installed on my Mac. Very useful as refe
 	- `git` for obvious reasons. The latest version, so not the old version which is installed by default on MacOS
 	- `bat` which is like `cat`, but with syntax highlighting.
 	- `node` nodeJS (which includes `npm` as well).
+	- `jenv` to easily switch JDK's ([jenv](https://www.jenv.be/))
 - [Docker](https://hub.docker.com/editions/community/docker-ce-desktop-mac). ([Docker Docker Docker!](https://youtu.be/5JMK8vaGxyI?list=PLpQuPreMkT6ArrW7WOI5PhQhBMQNGfPXr&t=95)) I tried installing this via brew, but weirdly that didn't really work. Installed it via the `.dmg`.
 - [Insomnia](https://insomnia.rest/) is a tool like Postman; making it easy to make API requests. I like Insomnia a bit better than Postman. Installed it via the brew cask.
 - [VirtualBox](https://www.virtualbox.org/wiki/Downloads) to run VM's. I had to enable installing software from developer _Oracle America, Inc._ in the security and privacy settings of MacOS before I was able to install it.
 	- [IE and Edge VM's](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/) are the things I mostly run on VirtualBox. Yeah, living the IE11 dream!
 - [ChromeDriver](http://chromedriver.chromium.org/) to let Selenium speak Chrome
 - Java
-	- First I installed AdoptOpenJDK 8 (Hotspot) via [a brew cask](https://github.com/AdoptOpenJDK/homebrew-openjdk). This is still my default java, but unfortunately some things (jars for work using some _@rpath/libfreetype.6.dylib_ (swing?) which it couldn't find) didn't work correctly. Didn't spend too much time looking into this, just installed another JDK.
+	- First I installed AdoptOpenJDK 8 (Hotspot) via [a brew cask](https://github.com/AdoptOpenJDK/homebrew-openjdk). This is my default java. Unfortunately some things (jars for work using some _@rpath/libfreetype.6.dylib_ (swing?) which it couldn't find) didn't work correctly. Furtunately an update fixed this.
 	-  [Oracle JDK 8](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) which I use to run that particular jar.
 - [Vue CLI](https://cli.vuejs.org/) to help developing Vue apps. Currently this is the only npm package I've installed globally. Probably more will follow.
 
