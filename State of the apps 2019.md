@@ -23,6 +23,7 @@ This is a list of the applications I've installed on my Mac. Very useful as refe
 	- `bat` which is like `cat`, but with syntax highlighting.
 	- `node` nodeJS (which includes `npm` as well).
 	- `jenv` to easily switch JDK's ([jenv](https://www.jenv.be/))
+	- `wireshark` via `brew cask install wireshark`
 - [Docker](https://hub.docker.com/editions/community/docker-ce-desktop-mac). ([Docker Docker Docker!](https://youtu.be/5JMK8vaGxyI?list=PLpQuPreMkT6ArrW7WOI5PhQhBMQNGfPXr&t=95)) I tried installing this via brew, but weirdly that didn't really work. Installed it via the `.dmg`.
 - [Insomnia](https://insomnia.rest/) is a tool like Postman; making it easy to make API requests. I like Insomnia a bit better than Postman. Installed it via the brew cask.
 - [VirtualBox](https://www.virtualbox.org/wiki/Downloads) to run VM's. I had to enable installing software from developer _Oracle America, Inc._ in the security and privacy settings of MacOS before I was able to install it.
@@ -43,6 +44,7 @@ Is that it? Yeah. No Maven or Gradle yet. These will probably follow later when 
 - [VLC](https://www.videolan.org/) it was a week at my new job before I received my first `.wmv` video. VLC is a nice tool to play all media with.
 - [Scroll reverser](https://pilotmoon.com/scrollreverser/). Usually I use my MacBook with an external (Windows) keyboard, external monitor and external mouse. I like to have my scroll wheel on my mouse work like I'm used to (the Windows default, what MacOS calls not natural) and my touchpad like I'm used to as well (what MacOS calls natural). Scroll reverser lets me actually set this up like I want to.
 - [Aerial screensaver](https://github.com/JohnCoates/Aerial) as mentioned before I use my MacBook with an external monitor. If I lock my MacBook, the external screen will go into sleep. It doesn't wake up correctly without switching it on and off again. Bummer. Therefore I always lock it with a screensaver; that way the external monitor won't sleep. I really like the Aerial screensaver, which often shows Hong Kong where I have some fond memories of ;). I also set up a hot-corner to easily put my machine on screensaver mode.
+- [Magnet](https://magnet.crowdcafe.com) which adds hotkeys for me to put the windows where I want them. 
 
 
 ## Office, web text
