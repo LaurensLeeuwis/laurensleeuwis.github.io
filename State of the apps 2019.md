@@ -46,6 +46,8 @@ Is that it? Yeah. No Maven or Gradle yet. These will probably follow later when 
 - [Aerial screensaver](https://github.com/JohnCoates/Aerial) as mentioned before I use my MacBook with an external monitor. If I lock my MacBook, the external screen will go into sleep. It doesn't wake up correctly without switching it on and off again. Bummer. Therefore I always lock it with a screensaver; that way the external monitor won't sleep. I really like the Aerial screensaver, which often shows Hong Kong where I have some fond memories of ;). I also set up a hot-corner to easily put my machine on screensaver mode.
 - [Magnet](https://magnet.crowdcafe.com) which adds hotkeys for me to put the windows where I want them. 
 - [Alfred](https://www.alfredapp.com/) which is a powerful replacement for Spotlight. I'm just getting started with this tool, there is a lot to learn I think :)
+- [OBS Studio](https://obsproject.com/) which lets me record my screen. While CMD+SHIFT+5 can do something like that as well, this tool is more powerful.
+- [Soundflower](https://github.com/mattingalls/Soundflower) is a tool which redirects a sound output ('speaker') to a sound input ('microphone'). Enabling me to record the screen sound in OBS.
 
 
 ## Office, web text
