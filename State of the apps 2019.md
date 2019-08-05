@@ -49,6 +49,8 @@ Is that it? Yeah. No Maven or Gradle yet. These will probably follow later when 
 - [OBS Studio](https://obsproject.com/) which lets me record my screen. While CMD+SHIFT+5 can do something like that as well, this tool is more powerful.
 - [Soundflower](https://github.com/mattingalls/Soundflower) is a tool which redirects a sound output ('speaker') to a sound input ('microphone'). Enabling me to record the screen sound in OBS.
 - [The Unarchiver](https://theunarchiver.com/) to extract RAR files, etc.
+- [Tunnelblick](https://tunnelblick.net/) to OpenVPN into AWS
+- Microsoft Remote Desktop (from the App store) to RDP into far away machines 
 
 
 ## Office, web text
