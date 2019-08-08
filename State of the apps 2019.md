@@ -32,6 +32,7 @@ This is a list of the applications I've installed on my Mac. Very useful as refe
 - Java
 	- First I installed AdoptOpenJDK 8 (Hotspot) via [a brew cask](https://github.com/AdoptOpenJDK/homebrew-openjdk). This is my default java. Unfortunately some things (jars for work using some _@rpath/libfreetype.6.dylib_ (swing?) which it couldn't find) didn't work correctly. Furtunately an update fixed this.
 	-  [Oracle JDK 8](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) which I use to run that particular jar.
+	- AdoptOpenJDK 11, needed to run the latest SonarQube: `brew install adoptopenjdk11`. Via the same brew cask as above.
 - [Vue CLI](https://cli.vuejs.org/) to help developing Vue apps. Currently this is the only npm package I've installed globally. Probably more will follow.
 
 Is that it? Yeah. No Maven or Gradle yet. These will probably follow later when I actually need to have them installed globally. For now, `gradlew` and `mvnw` do their thing just fine.
