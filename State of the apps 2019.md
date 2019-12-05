@@ -26,6 +26,7 @@ This is a list of the applications I've installed on my Mac. Very useful as refe
 	- `wireshark` via `brew cask install wireshark`
 - [Docker](https://hub.docker.com/editions/community/docker-ce-desktop-mac). ([Docker Docker Docker!](https://youtu.be/5JMK8vaGxyI?list=PLpQuPreMkT6ArrW7WOI5PhQhBMQNGfPXr&t=95)) I tried installing this via brew, but weirdly that didn't really work. Installed it via the `.dmg`.
 - [Insomnia](https://insomnia.rest/) is a tool like Postman; making it easy to make API requests. I like Insomnia a bit better than Postman. Installed it via the brew cask.
+- [Postman](https://www.getpostman.com/downloads/) after some time without it, I did go ahead and install it. Especially the 'Pre request script' is useful when using a custom authentication mechanism.
 - [VirtualBox](https://www.virtualbox.org/wiki/Downloads) to run VM's. I had to enable installing software from developer _Oracle America, Inc._ in the security and privacy settings of MacOS before I was able to install it.
 	- [IE and Edge VM's](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/) are the things I mostly run on VirtualBox. Yeah, living the IE11 dream!
 - [ChromeDriver](http://chromedriver.chromium.org/) to let Selenium speak Chrome
