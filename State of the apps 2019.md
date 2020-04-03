@@ -24,6 +24,7 @@ This is a list of the applications I've installed on my Mac. Very useful as refe
 	- `node` nodeJS (which includes `npm` as well).
 	- `jenv` to easily switch JDK's ([jenv](https://www.jenv.be/))
 	- `wireshark` via `brew cask install wireshark`
+	- `joplin` via `brew cash install joplin`. [Joplin](https://joplinapp.org/) is a 'Evernote'-like app, which works with Markdown and WebDav.
 - [Docker](https://hub.docker.com/editions/community/docker-ce-desktop-mac). ([Docker Docker Docker!](https://youtu.be/5JMK8vaGxyI?list=PLpQuPreMkT6ArrW7WOI5PhQhBMQNGfPXr&t=95)) I tried installing this via brew, but weirdly that didn't really work. Installed it via the `.dmg`.
 - [Insomnia](https://insomnia.rest/) is a tool like Postman; making it easy to make API requests. I like Insomnia a bit better than Postman. Installed it via the brew cask.
 - [Postman](https://www.getpostman.com/downloads/) after some time without it, I did go ahead and install it. Especially the 'Pre request script' is useful when using a custom authentication mechanism.
