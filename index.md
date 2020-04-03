@@ -1,1 +1,1 @@
-[State of the apps 2019](./State%20of%20the%20apps%202019)
+[State of the apps](./State%20of%20the%20apps)

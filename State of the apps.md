@@ -1,8 +1,6 @@
-# State of the apps 2019
+# State of the apps 2020
 
-I've been using a MacBook Air at home to browse and code a bit while chilling on the couch for about 4 years now. After switching jobs I'm now using on a MacBook Pro at work. I had to step up my game, having developed on a Windows machine for 7 years. 
-
-This is a list of the applications I've installed on my Mac. Very useful as reference for myself once I need to reinstall all of it. Could be useful for you as well, just like the inspiration for this - [State of the apps 2018 by jqno](https://jqno.nl/post/2018/10/07/state-of-the-apps/) - was very very very useful for me ;)
+This is a list of the applications I've installed on my Mac. Very useful as reference for myself once I need to reinstall all of it. Could be useful for you as well, just like the inspiration for this - [State of the apps 2018 by jqno](https://jqno.nl/post/2018/10/07/state-of-the-apps/) - was very useful for me.
 
 ## Development
 
