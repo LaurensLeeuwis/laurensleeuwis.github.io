@@ -36,6 +36,7 @@ This is a list of the applications I've installed on my Mac. Very useful as refe
 	-  [Oracle JDK 8](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) which I use to run that particular jar.
 	- AdoptOpenJDK 11, needed to run the latest SonarQube: `brew install adoptopenjdk11`. Via the same brew cask as above.
 - [Vue CLI](https://cli.vuejs.org/) to help developing Vue apps. Currently this is the only npm package I've installed globally. Probably more will follow.
+- [Boop](https://boop.okat.best/)
 
 Is that it? Yeah. No Maven or Gradle yet. These will probably follow later when I actually need to have them installed globally. For now, `gradlew` and `mvnw` do their thing just fine.
 
