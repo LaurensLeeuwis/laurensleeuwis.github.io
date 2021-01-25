@@ -1,4 +1,4 @@
-# State of the apps 2020
+# State of the apps 2021
 
 This is a list of the applications I've installed on my Mac. Very useful as reference for myself once I need to reinstall all of it. Could be useful for you as well, just like the inspiration for this - [State of the apps 2018 by jqno](https://jqno.nl/post/2018/10/07/state-of-the-apps/) - was very useful for me.
 
@@ -26,6 +26,8 @@ This is a list of the applications I've installed on my Mac. Very useful as refe
 	- `wireshark` via `brew cask install wireshark`
 	- `joplin` via `brew cask install joplin`. [Joplin](https://joplinapp.org/) is a 'Evernote'-like app, which works with Markdown and WebDav.
 	- `telnet` to see whether I can connect to some apps (e.g. Selenium on a remote machine).
+	- `svn`, for the few old svn repositories we have at my company
+	- `vagrant`, to create a IE11/Edge test VM in an automated way. (via `brew cask install vagrant`).
 - [Docker](https://hub.docker.com/editions/community/docker-ce-desktop-mac). ([Docker Docker Docker!](https://youtu.be/5JMK8vaGxyI?list=PLpQuPreMkT6ArrW7WOI5PhQhBMQNGfPXr&t=95)) I tried installing this via brew, but weirdly that didn't really work. Installed it via the `.dmg`.
 - [Insomnia](https://insomnia.rest/) is a tool like Postman; making it easy to make API requests. I like Insomnia a bit better than Postman. Installed it via the brew cask.
 - [Postman](https://www.getpostman.com/downloads/) after some time without it, I did go ahead and install it. Especially the 'Pre request script' is useful when using a custom authentication mechanism.
@@ -37,7 +39,7 @@ This is a list of the applications I've installed on my Mac. Very useful as refe
 	-  [Oracle JDK 8](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) which I use to run that particular jar.
 	- AdoptOpenJDK 11, needed to run the latest SonarQube: `brew install adoptopenjdk11`. Via the same brew cask as above.
 - [Vue CLI](https://cli.vuejs.org/) to help developing Vue apps. Currently this is the only npm package I've installed globally. Probably more will follow.
-- [Boop](https://boop.okat.best/)
+- [Boop](https://boop.okat.best/) is an easy to use tool which can format and minify JSON/XML, URL encode/decode, etc.
 
 Is that it? Yeah. No Maven or Gradle yet. These will probably follow later when I actually need to have them installed globally. For now, `gradlew` and `mvnw` do their thing just fine.
 
@@ -50,21 +52,24 @@ Is that it? Yeah. No Maven or Gradle yet. These will probably follow later when 
 - [Scroll reverser](https://pilotmoon.com/scrollreverser/). Usually I use my MacBook with an external (Windows) keyboard, external monitor and external mouse. I like to have my scroll wheel on my mouse work like I'm used to (the Windows default, what MacOS calls not natural) and my touchpad like I'm used to as well (what MacOS calls natural). Scroll reverser lets me actually set this up like I want to.
 - [Aerial screensaver](https://github.com/JohnCoates/Aerial) as mentioned before I use my MacBook with an external monitor. If I lock my MacBook, the external screen will go into sleep. It doesn't wake up correctly without switching it on and off again. Bummer. Therefore I always lock it with a screensaver; that way the external monitor won't sleep. I really like the Aerial screensaver, which often shows Hong Kong where I have some fond memories of ;). I also set up a hot-corner to easily put my machine on screensaver mode.
 - [Magnet](https://magnet.crowdcafe.com) which adds hotkeys for me to put the windows where I want them. 
-- [Alfred](https://www.alfredapp.com/) which is a powerful replacement for Spotlight. I'm just getting started with this tool, there is a lot to learn. I use the [bookmark magic](https://medium.com/@jhkuperus/bookmark-magic-with-alfred-personal-productivity-45d952dad438) a lot.
+- [Alfred](https://www.alfredapp.com/) which is a powerful replacement for Spotlight. I'm just getting started with this tool, there is a lot to learn. I use the [bookmark magic](https://medium.com/@jhkuperus/bookmark-magic-with-alfred-personal-productivity-45d952dad438) a lot. Also, the [Jetbrains Open Project](https://github.com/bchatard/alfred-jetbrains#readme) plugin is really time-saving for me.
 - [OBS Studio](https://obsproject.com/) which lets me record my screen. While CMD+SHIFT+5 can do something like that as well, this tool is more powerful.
 - [Soundflower](https://github.com/mattingalls/Soundflower) is a tool which redirects a sound output ('speaker') to a sound input ('microphone'). Enabling me to record the screen sound in OBS.
 - [The Unarchiver](https://theunarchiver.com/) to extract RAR files, etc.
 - [Tunnelblick](https://tunnelblick.net/) to OpenVPN into AWS
-- Microsoft Remote Desktop (from the App store) to RDP into far away machines 
+- Microsoft Remote Desktop (from the App store) to RDP into far away machines
+- [Contexts](https://contexts.co/) to change the cmd+tab behavior on my mac. When using my Macbook in laptop mode (without external screens) I tend to use this shortcut a lot, and this makes it more like it was in windows. So a single shortcut for all, not cmd+tab and cmd+backtick for switching apps/windows.
+- [Spotify](https://www.spotify.com/us/download/mac/) is making sure I have nice tunes while doing my work. I'm one of the very late adopters; it's amazing ;).
 
 
-## Office, web text
+## Office, web, text
 
 - [MacDown](https://macdown.uranusjr.com/) to write markdown. I wrote this post using it.
 - [Sublime Text](https://www.sublimetext.com/) to write all kinds of files. Actually I would really like to have [Notepad++](https://notepad-plus-plus.org/) back, but that is Windows only.
-- [Google Chrome](https://www.google.com/chrome/) is my browser of choice. It syncs my history, bookmarks and some passwords between devices as well. I also know my way around in the developer tools, more than those of the other browsers. I'm using the _JSON Formatter_ and _Vue.js devtools_ extensions as well.
+- [Google Chrome](https://www.google.com/chrome/) is my browser of choice. It syncs my history, bookmarks and some passwords between devices as well. I also know my way around in the developer tools, more than those of the other browsers. I'm using the _JSON Formatter_, _Keepass Tusk_ and _Vue.js devtools_ extensions as well.
 - [GIMP](https://www.gimp.org/). A long long time ago I've used Adobe Photoshop to edit images. GIMP is quite similar (for my usage), but free. I sometimes use it to give images some effects when using them in presentations and stuff. Cropping screenshots is a thing I don't do as much as I did before because of the magic CMD+SHIFT+5 tooling in MacOS.
 - Microsoft Office. My company uses Office, which I've always used in school, university and at work before as well. I know my way around in Outlook, Word, Excel, Powerpoint and Skype. Because I'm productive in these tools I quite like them as well. I removed Pages, Keynote and Numbers from my machine because they feel obsolete. Actually I have a license for Office at home as well (thanks [HUP](https://www.microsofthup.com)).
+- Microsoft Teams is the chat/video conference app we use in our company.
 - Of course I have installed some company stuff as well, like Cisco AnyConnect, Sophos Endpoint, etc. etc.
 
 
