@@ -28,6 +28,7 @@ This is a list of the applications I've installed on my Mac. Very useful as refe
 	- `telnet` to see whether I can connect to some apps (e.g. Selenium on a remote machine).
 	- `svn`, for the few old svn repositories we have at my company
 	- `vagrant`, to create a IE11/Edge test VM in an automated way. (via `brew cask install vagrant`).
+	- `dozer` which helps me hide unused icons in my menu bar. (via `brew cash install dozer`).
 - [Docker](https://hub.docker.com/editions/community/docker-ce-desktop-mac). ([Docker Docker Docker!](https://youtu.be/5JMK8vaGxyI?list=PLpQuPreMkT6ArrW7WOI5PhQhBMQNGfPXr&t=95)) I tried installing this via brew, but weirdly that didn't really work. Installed it via the `.dmg`.
 - [Insomnia](https://insomnia.rest/) is a tool like Postman; making it easy to make API requests. I like Insomnia a bit better than Postman. Installed it via the brew cask.
 - [Postman](https://www.getpostman.com/downloads/) after some time without it, I did go ahead and install it. Especially the 'Pre request script' is useful when using a custom authentication mechanism.
@@ -60,6 +61,7 @@ Is that it? Yeah. No Maven or Gradle yet. These will probably follow later when 
 - Microsoft Remote Desktop (from the App store) to RDP into far away machines
 - [Contexts](https://contexts.co/) to change the cmd+tab behavior on my mac. When using my Macbook in laptop mode (without external screens) I tend to use this shortcut a lot, and this makes it more like it was in windows. So a single shortcut for all, not cmd+tab and cmd+backtick for switching apps/windows.
 - [Spotify](https://www.spotify.com/us/download/mac/) is making sure I have nice tunes while doing my work. I'm one of the very late adopters; it's amazing ;).
+- [Snappy](https://apps.apple.com/us/app/snappy-snapshots-the-smart-way/id512617038) to easily create screenshots.
 
 
 ## Office, web, text
