@@ -34,7 +34,6 @@ This is a list of the applications I've installed on my Mac. Very useful as refe
 - [Postman](https://www.getpostman.com/downloads/) after some time without it, I did go ahead and install it. Especially the 'Pre request script' is useful when using a custom authentication mechanism.
 - [VirtualBox](https://www.virtualbox.org/wiki/Downloads) to run VM's. I had to enable installing software from developer _Oracle America, Inc._ in the security and privacy settings of MacOS before I was able to install it.
 	- [IE and Edge VM's](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/) are the things I mostly run on VirtualBox. Yeah, living the IE11 dream!
-- [ChromeDriver](http://chromedriver.chromium.org/) to let Selenium speak Chrome
 - Java
 	- First I installed AdoptOpenJDK 8 (Hotspot) via [a brew cask](https://github.com/AdoptOpenJDK/homebrew-openjdk). This is my default java. Unfortunately some things (jars for work using some _@rpath/libfreetype.6.dylib_ (swing?) which it couldn't find) didn't work correctly. Furtunately an update fixed this.
 	-  [Oracle JDK 8](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) which I use to run that particular jar.
@@ -62,6 +61,8 @@ Is that it? Yeah. No Maven or Gradle yet. These will probably follow later when 
 - [Contexts](https://contexts.co/) to change the cmd+tab behavior on my mac. When using my Macbook in laptop mode (without external screens) I tend to use this shortcut a lot, and this makes it more like it was in windows. So a single shortcut for all, not cmd+tab and cmd+backtick for switching apps/windows.
 - [Spotify](https://www.spotify.com/us/download/mac/) is making sure I have nice tunes while doing my work. I'm one of the very late adopters; it's amazing ;).
 - [Snappy](https://apps.apple.com/us/app/snappy-snapshots-the-smart-way/id512617038) to easily create screenshots.
+- [Hex Fiend](https://hexfiend.com/) to open and edit files with a Hex Editor
+- [Commander One](https://apps.apple.com/nl/app/commander-one-file-manager/id1035236694) which is like 'Norton Commander' for MacOS. I use this to clean up my machine once in a while. And I really dislike 'Finder'
 
 
 ## Office, web, text
