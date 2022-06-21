@@ -63,6 +63,7 @@ Is that it? Yeah. No Maven or Gradle yet. These will probably follow later when 
 - [Snappy](https://apps.apple.com/us/app/snappy-snapshots-the-smart-way/id512617038) to easily create screenshots.
 - [Hex Fiend](https://hexfiend.com/) to open and edit files with a Hex Editor
 - [Commander One](https://apps.apple.com/nl/app/commander-one-file-manager/id1035236694) which is like 'Norton Commander' for MacOS. I use this to clean up my machine once in a while. And I really dislike 'Finder'
+- [Quick Camera](https://apps.apple.com/us/app/quick-camera/id598853070) to just view my webcam. Useful when sharing your screen and just want to show something.
 
 
 ## Office, web, text
