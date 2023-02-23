@@ -81,3 +81,9 @@ Is that it? Yeah. No Maven or Gradle yet. These will probably follow later when 
 
 - [Workrave](http://www.workrave.org/)/[Workpace](http://www.workpace.com/workpace/about/what-is-workpace/). This helps preventing RSI. While I generally don't like to be disturbed by microbreaks, I dislike it even more when my back or wrist hurts. I tried [Stretchly](https://hovancik.net/stretchly/) and [TimeOut](https://www.dejal.com/timeout/) but I didn't like those. Especially that they didn't reset their times when I took a break on my own.
 
+
+
+- brew install --cask macdown
+- brew install --cask temurin17
+- brew install --cask temurin
+- 
