@@ -1,77 +1,51 @@
-# State of the apps 2021
+# State of the apps 2023
 
 This is a list of the applications I've installed on my Mac. Very useful as reference for myself once I need to reinstall all of it. Could be useful for you as well, just like the inspiration for this - [State of the apps 2018 by jqno](https://jqno.nl/post/2018/10/07/state-of-the-apps/) - was very useful for me.
 
 ## Development
 
-- [Jetbrains Toolbox](https://www.jetbrains.com/toolbox/) is a nice tool to install IntelliJ IDEA. If new versions comes out it's very easy to update, and it gives me a nice menu in the toolbar which makes it convenient to open recent projects. Also useful when trying a new experimental IntelliJ version, because it can easily install multiple versions at the same machine.
+- [Jetbrains Toolbox](https://www.jetbrains.com/toolbox/) is a nice tool to install IntelliJ IDEA. If new versions comes out it's very easy to update, and it gives me a nice menu in the toolbar which makes it convenient to open recent projects.
 	- [IntelliJ IDEA Ultimate](https://www.jetbrains.com/idea) is my IDE of choice. I've used it for many years and feel most productive using it.
-	    - [Presentation Assistant Plugin](https://plugins.jetbrains.com/plugin/7345-presentation-assistant) I always have this plugin enabled. It shows me which shortcuts I could've used instead of using my mouse. It is also useful during presentations and extreme programming; the audience can follow what keys you've pressed. Also, it gives me quick feedback that I actually used the intended shortcut ;)
-	    - [FiraCode](https://github.com/tonsky/FiraCode) my font of choice. I enabled the ligatures as well, which gives me amazing `=>` and `!=`'s.
-	    - I disabled tabs. I use CMD+E [a lot](https://twitter.com/LaurensLeeuwis/status/701779865813524480).
-	    - Solarized (light) theme (can't remember whether I used [this](https://github.com/jkaving/intellij-colors-solarized) or [this](https://github.com/4lex4/intellij-platform-solarized)). Because I was using the solarized theme for iTerm (see later on) I use the solarized (light) theme for IntelliJ as well. Of course I'm using the same shell (zsh) inside and outside of IntelliJ.
-	    - [BashSupport plugin](https://plugins.jetbrains.com/plugin/4230-bashsupport) for Bash support
-	    - [My Bricks background](./achtergrond%20witte%20bakstenen.jpg) as the editor background (repetitive). Yeah. Weird?
-- [iTerm2](https://www.iterm2.com/). While the default _Terminal_ was fine for my hobby projects, it was time for something more serious.
-	- I use _zsh_ as my shell, _Meslo_ as a font, _Powerlevel9k_ and _Oh My Zsh_ as well. I actually don't have too much experience with all of this, but I quite like it so far. I followed the installation guide [here](https://gist.github.com/kevin-smets/8568070). Because I'm using Docker, I enabled the autocomplete for that.
+	    - [Presentation Assistant Plugin](https://plugins.jetbrains.com/plugin/7345-presentation-assistant) I always have this plugin enabled. It shows me which shortcuts I could've used instead of using my mouse. It is also useful during presentations and pair programming; the audience can follow what keys you've pressed. Also, it gives me quick feedback that I actually used the intended shortcut.
+	    - [Solarized (light) theme](https://plugins.jetbrains.com/plugin/12784-solarized-themes). Because I'm using the solarized theme for iTerm (see later on) I use the solarized (light) theme for IntelliJ as well. Of course I'm using the same shell (zsh) inside and outside of IntelliJ.
+ 	    - I disabled tabs. I use CMD+E [a lot](https://twitter.com/LaurensLeeuwis/status/701779865813524480).
+ 	    - I enabled font ligatures, which gives me amazing `=>` and `!=`'s. I use the defaul JetBrains Mono font nowadays.
 - [Brew](https://brew.sh/) to easily install some tools
-	- `zsh` including `zsh-autosuggestions` and `zsh-syntax-highlighting`. Don't know if I'm actually using the last two, since I installed the whole Meslo/Powerlevel9k/OhMyZsh afterwards (see above).
 	- `git` for obvious reasons. The latest version, so not the old version which is installed by default on MacOS
-	- `git-lfs` because we have some repositories at work which make use of the large file storage capabilities.
-	- `git-filter-repo` for when I need to move files across repositories including history
 	- `bat` which is like `cat`, but with syntax highlighting.
 	- `node` nodeJS (which includes `npm` as well).
-	- `jenv` to easily switch JDK's ([jenv](https://www.jenv.be/))
-	- `tldr` which is like `man`, but more useful
-	- `wireshark` via `brew cask install wireshark`
-	- `joplin` via `brew cask install joplin`. [Joplin](https://joplinapp.org/) is a 'Evernote'-like app, which works with Markdown and WebDav.
-	- `telnet` to see whether I can connect to some apps (e.g. Selenium on a remote machine).
-	- `svn`, for the few old svn repositories we have at my company
-	- `vagrant`, to create a IE11/Edge test VM in an automated way. (via `brew cask install vagrant`).
-	- `dozer` which helps me hide unused icons in my menu bar. (via `brew cash install dozer`).
+	- `tldr` which is like `man`, but more useful.
+	- `maven` the build tool for my current project.
+	- `joplin` Joplin](https://joplinapp.org/) is a 'Evernote'-like app, which works with Markdown and WebDav. (via `brew install --cask joplin`).
+	- `dozer` which helps me hide unused icons in my menu bar. (via `brew install --cask dozer`).
+	- `iterm2` as my terminal (see below).  (via `brew install --cask iterm2`).
+	- `macdown` [MacDown](https://macdown.uranusjr.com/) to write markdown. I wrote this post using it.  (via `brew install --cask macdown`).
+	- `adobe-acrobat-reader` to read (and sign!) PDFs.  (via `brew install --cask adobe-acrobat-reader`).
+	- `vlc` [VLC](https://www.videolan.org/) is a nice tool to play all media with. (via `brew install --cask vlc`)
+- [iTerm2](https://www.iterm2.com/). Used it for years. Tried [Warp](https://www.warp.dev/) for a while, but couldn't get used to it. Also, I like that iTerm2 kind of behaves the same way as the terminal in IntelliJ, which I use a lot as well.
+	- I set up iTerm2 + Oh My Zsh + Solarized light + Powerlevel10k via [this guide](https://gist.github.com/kevin-smets/8568070). It installs a nice font for iTerm2 as well. However, I did set the wizard for Powerlevel10k on my IntelliJ shell, because that doesn't support this nice font :(.
+	- I've enabled the `git`, `zsh-autosuggestions` and `zsh-syntax-highlighting` plugins.
+	- I've set `HISTSIZE` and `SAVEHIST` to `10000000`
+	- This is how it looks: ![iTerm looks](./iTerm.png)
 - [Docker](https://hub.docker.com/editions/community/docker-ce-desktop-mac). ([Docker Docker Docker!](https://youtu.be/5JMK8vaGxyI?list=PLpQuPreMkT6ArrW7WOI5PhQhBMQNGfPXr&t=95)) I tried installing this via brew, but weirdly that didn't really work. Installed it via the `.dmg`.
-- [Insomnia](https://insomnia.rest/) is a tool like Postman; making it easy to make API requests. I like Insomnia a bit better than Postman. Installed it via the brew cask.
-- [Postman](https://www.getpostman.com/downloads/) after some time without it, I did go ahead and install it. Especially the 'Pre request script' is useful when using a custom authentication mechanism.
-- [VirtualBox](https://www.virtualbox.org/wiki/Downloads) to run VM's. I had to enable installing software from developer _Oracle America, Inc._ in the security and privacy settings of MacOS before I was able to install it.
-	- [IE and Edge VM's](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/) are the things I mostly run on VirtualBox. Yeah, living the IE11 dream!
-- Java
-	- First I installed AdoptOpenJDK 8 (Hotspot) via [a brew cask](https://github.com/AdoptOpenJDK/homebrew-openjdk). This is my default java. Unfortunately some things (jars for work using some _@rpath/libfreetype.6.dylib_ (swing?) which it couldn't find) didn't work correctly. Furtunately an update fixed this.
-	-  [Oracle JDK 8](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) which I use to run that particular jar.
-	- AdoptOpenJDK 11, needed to run the latest SonarQube: `brew install adoptopenjdk11`. Via the same brew cask as above.
-- [Vue CLI](https://cli.vuejs.org/) to help developing Vue apps. Currently this is the only npm package I've installed globally. Probably more will follow.
 - [Boop](https://boop.okat.best/) is an easy to use tool which can format and minify JSON/XML, URL encode/decode, etc.
+- [SDKman](https://sdkman.io/) to manage jdks. E.g. `sdk install java 11.0.18-tem` to install the currently latest Java 11 Temurin runtime.
 
-Is that it? Yeah. No Maven or Gradle yet. These will probably follow later when I actually need to have them installed globally. For now, `gradlew` and `mvnw` do their thing just fine.
 
 ## Tools
 
 - [MacPass](https://macpassapp.org/) to save and generate all my passwords. My go-to 'KeePass compatible' app for the Mac. I use KeePass itself on my Windows machines and [KeePass Touch](https://itunes.apple.com/nl/app/keepass-touch/id966759076) on my iOS device. What I like about KeePass is that I feel that I'm in control over my secret stuff. No company (which can be hacked) keeping track of my passwords.
-- [Dropbox](https://www.dropbox.com/downloading) to sync my KeePass database between machines. Integrates nicely with the _KeePass Touch_ app for iOS.
-- [STACK](https://www.transip.nl/stack/) as my cloud storage. I like that it's hosted in the Netherlands, and I got 1TB of free storage.
-- [VLC](https://www.videolan.org/) it was a week at my new job before I received my first `.wmv` video. VLC is a nice tool to play all media with.
+- [STACK](https://www.transip.nl/stack/) as my cloud storage. I like that it's hosted in the Netherlands, and I got 1TB of storage (which was once free).
 - [Scroll reverser](https://pilotmoon.com/scrollreverser/). Usually I use my MacBook with an external (Windows) keyboard, external monitor and external mouse. I like to have my scroll wheel on my mouse work like I'm used to (the Windows default, what MacOS calls not natural) and my touchpad like I'm used to as well (what MacOS calls natural). Scroll reverser lets me actually set this up like I want to.
 - [Aerial screensaver](https://github.com/JohnCoates/Aerial) as mentioned before I use my MacBook with an external monitor. If I lock my MacBook, the external screen will go into sleep. It doesn't wake up correctly without switching it on and off again. Bummer. Therefore I always lock it with a screensaver; that way the external monitor won't sleep. I really like the Aerial screensaver, which often shows Hong Kong where I have some fond memories of ;). I also set up a hot-corner to easily put my machine on screensaver mode.
 - [Magnet](https://magnet.crowdcafe.com) which adds hotkeys for me to put the windows where I want them. 
 - [Alfred](https://www.alfredapp.com/) which is a powerful replacement for Spotlight. I'm just getting started with this tool, there is a lot to learn. I use the [bookmark magic](https://medium.com/@jhkuperus/bookmark-magic-with-alfred-personal-productivity-45d952dad438) a lot. Also, the [Jetbrains Open Project](https://github.com/bchatard/alfred-jetbrains#readme) plugin is really time-saving for me.
-- [OBS Studio](https://obsproject.com/) which lets me record my screen. While CMD+SHIFT+5 can do something like that as well, this tool is more powerful.
-- [Soundflower](https://github.com/mattingalls/Soundflower) is a tool which redirects a sound output ('speaker') to a sound input ('microphone'). Enabling me to record the screen sound in OBS.
-- [The Unarchiver](https://theunarchiver.com/) to extract RAR files, etc.
-- [Tunnelblick](https://tunnelblick.net/) to OpenVPN into AWS
-- Microsoft Remote Desktop (from the App store) to RDP into far away machines
-- [Contexts](https://contexts.co/) to change the cmd+tab behavior on my mac. When using my Macbook in laptop mode (without external screens) I tend to use this shortcut a lot, and this makes it more like it was in windows. So a single shortcut for all, not cmd+tab and cmd+backtick for switching apps/windows.
-- [Spotify](https://www.spotify.com/us/download/mac/) is making sure I have nice tunes while doing my work. I'm one of the very late adopters; it's amazing ;).
-- [Snappy](https://apps.apple.com/us/app/snappy-snapshots-the-smart-way/id512617038) to easily create screenshots.
+- [Contexts](https://contexts.co/) to change the cmd+tab behavior on my mac. When using my Macbook in laptop mode (without external screens) I tend to use this shortcut a lot, and this makes it more like it was in windows. So a single shortcut for all, not cmd+tab and cmd+backtick for switching apps/windows. It did come with some weird window overlayed and always taking space. I made sure to switch that off.
+- [Spotify](https://www.spotify.com/us/download/mac/) is making sure I have nice tunes. I'm one of the very late adopters; it's amazing ;).
 - [Hex Fiend](https://hexfiend.com/) to open and edit files with a Hex Editor
-- [Commander One](https://apps.apple.com/nl/app/commander-one-file-manager/id1035236694) which is like 'Norton Commander' for MacOS. I use this to clean up my machine once in a while. And I really dislike 'Finder'
-- [Quick Camera](https://apps.apple.com/us/app/quick-camera/id598853070) to just view my webcam. Useful when sharing your screen and just want to show something.
-
-
-## Office, web, text
-
+- [Commander One](https://apps.apple.com/nl/app/commander-one-file-manager/id1035236694) which is like 'Norton Commander' for MacOS. I use this to clean up my machine once in a while. And I really dislike 'Finder'.
 - [MacDown](https://macdown.uranusjr.com/) to write markdown. I wrote this post using it.
-- [Sublime Text](https://www.sublimetext.com/) to write all kinds of files. Actually I would really like to have [Notepad++](https://notepad-plus-plus.org/) back, but that is Windows only.
-- [Google Chrome](https://www.google.com/chrome/) is my browser of choice. It syncs my history, bookmarks and some passwords between devices as well. I also know my way around in the developer tools, more than those of the other browsers. I'm using the _JSON Formatter_, _Keepass Tusk_ and _Vue.js devtools_ extensions as well.
-- [GIMP](https://www.gimp.org/). A long long time ago I've used Adobe Photoshop to edit images. GIMP is quite similar (for my usage), but free. I sometimes use it to give images some effects when using them in presentations and stuff. Cropping screenshots is a thing I don't do as much as I did before because of the magic CMD+SHIFT+5 tooling in MacOS.
+- [Google Chrome](https://www.google.com/chrome/) is my browser of choice. It syncs my history, bookmarks and some passwords between devices as well. I also know my way around in the developer tools, more than those of the other browsers.
 - Microsoft Office. My company uses Office, which I've always used in school, university and at work before as well. I know my way around in Outlook, Word, Excel, Powerpoint and Skype. Because I'm productive in these tools I quite like them as well. I removed Pages, Keynote and Numbers from my machine because they feel obsolete. Actually I have a license for Office at home as well (thanks [HUP](https://www.microsofthup.com)).
 - Microsoft Teams is the chat/video conference app we use in our company.
 - Of course I have installed some company stuff as well, like Cisco AnyConnect, Sophos Endpoint, etc. etc.
@@ -81,9 +55,6 @@ Is that it? Yeah. No Maven or Gradle yet. These will probably follow later when 
 
 - [Workrave](http://www.workrave.org/)/[Workpace](http://www.workpace.com/workpace/about/what-is-workpace/). This helps preventing RSI. While I generally don't like to be disturbed by microbreaks, I dislike it even more when my back or wrist hurts. I tried [Stretchly](https://hovancik.net/stretchly/) and [TimeOut](https://www.dejal.com/timeout/) but I didn't like those. Especially that they didn't reset their times when I took a break on my own.
 
+## Things that are not supported anymore at the latest MacOS
 
-
-- brew install --cask macdown
-- brew install --cask temurin17
-- brew install --cask temurin
-- 
+- [Snappy](https://apps.apple.com/us/app/snappy-snapshots-the-smart-way/id512617038) to easily create screenshots. I'm still looking for a proper replacement.
